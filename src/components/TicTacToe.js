@@ -1,4 +1,4 @@
-import Game from "../components/Game.js"
+import Game from "../components/game.js"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
