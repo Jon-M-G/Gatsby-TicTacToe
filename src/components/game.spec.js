@@ -12,7 +12,7 @@ describe('Game', () => {
     expect(tree).toMatchSnapshot();
   });
  
-  it('passes all props to Counter', () => {
+  it('pass props', () => {
     const wrapper = mount(<Game />);
     const counterWrapper = wrapper.find(Board);
  
